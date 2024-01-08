@@ -6,6 +6,8 @@ class Key {
   }
 }
 
+// оновленна інфа
+
 class Person {
   constructor(private key: Key) {}
 
