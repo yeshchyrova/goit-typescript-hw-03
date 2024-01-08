@@ -6,6 +6,8 @@ class Key {
   }
 }
 
+// qwqweqwe
+
 class Person {
   constructor(private key: Key) {}
 
