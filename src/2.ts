@@ -13,7 +13,6 @@
   Необхідно реалізувати в класі Manager конструктор, який викликатиме конструктор суперкласу та збільшуватиме salary на 10000.
 
 */
-
 class Employee {
   // Заповніть модифікатори доступу
   public name: string;
@@ -32,8 +31,8 @@ class Employee {
 }
 
 class Manager extends Employee {
-  constructor() {
-    super("Anny", "Main", 1000);
+  constructor(name: string, department: string, salary: number) {
+    super(name, department, salary);
     this.salary += 10000;
   }
   // Реалізуйте конструктор та збільшіть salary на 10000
