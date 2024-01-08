@@ -14,8 +14,6 @@ class Person {
   }
 }
 
-
-
 abstract class House {
   private tenants: Person[] = [];
   constructor(public door: boolean, public key: Key) {}
